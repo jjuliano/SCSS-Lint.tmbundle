@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>joelbryan.juliano@gmail.com</string>
+	<key>contactName</key>
+	<string>jjuliano</string>
+	<key>description</key>
+	<string>scss-lint bundle for TextMate 2.</string>
+	<key>name</key>
+	<string>SCSS-Lint</string>
+	<key>uuid</key>
+	<string>160AAF54-F847-45FF-A4C6-AD3C500107A9</string>
+</dict>
+</plist>

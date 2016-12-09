@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env sh
+
+if [ -z "$TM_RUBY" ]; then
+  echo "Need to set TM_RUBY"
+  exit 1
+fi
+
+"$TM_RUBY" "$TM_BUNDLE_SUPPORT/scss-lint.rb"
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>SCSS-Lint</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.scss</string>
+	<key>semanticClass</key>
+	<string>callback.document.did-save</string>
+	<key>uuid</key>
+	<string>DEBC7868-26F7-4FF2-A460-73D18D311139</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
